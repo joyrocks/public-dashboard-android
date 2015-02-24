@@ -41,7 +41,7 @@ var app = {
     receivedEvent: function(id) {
         setTimeout(function()
         {
-            window.location = 'http://analytics.joyrocks.com/public_dashboard?android=1';
+            window.location = 'http://mom.joyrocks.com/public_dashboard?android=1';
         }, this.deadTime);
 
         console.log('Received Event: ' + id);
